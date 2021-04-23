@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rahul T">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/org.css">
+    <title>IEEE IMPULSE | CET</title>
+</head>
+
+<body>
+
+    {% include header.html %}
+    
+    <style>
+        #spinner{
+            position: fixed;
+            top: 0;
+            height: 100vh;
+            width: 100vw;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .loader {
+            border: 10px solid #000000;
+            border-radius: 50%;
+            border-top: 10px solid #3498db;
+            width: 80px;
+            height: 80px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        #thankyou{
+            position: fixed;
+            z-index: 1000;
+            background-color: rgb(140, 187, 70);
+            color: rgb(11, 61, 11);
+            padding: 10px 25px;
+            border-radius: 5px;
+            width: 100%;
+
+        }
+        #thankyou h1{
+            font-size: 2em;
+        }
+
+
+
+        #select{
+            padding: 10px 25px;
+            border-radius: 25px;
+            background-color: #ffffff;
+            border: 1px solid #d4d4e3;
+            color: #504e70;
+            font-size: 16px;
+        }
+
+        @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
+
+        .red{
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+
+
+        
+
+    {{content}}
+
+
+    {% include footer.html%}
+
+<script src="/static/js/jQuery.min.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>
+    
