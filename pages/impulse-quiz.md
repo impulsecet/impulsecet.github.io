@@ -5,6 +5,8 @@ permalink: /technical-quiz
 
 <style>
     .quiz-container{
+        width: 80%;
+        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
