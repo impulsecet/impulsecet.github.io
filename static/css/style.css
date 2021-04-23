@@ -207,6 +207,12 @@ button{
     color: #ff8900;
 }
 
+
+
+
+
+
+
 /* Home section */
 .home-section{
     min-height: 100vh;
@@ -340,6 +346,51 @@ button{
     margin-top: 30px;
 
 }
+
+.btn{
+    background-color: #ff8900;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Updates Section  */
+
+.updates-container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.updates-container .updates-card{
+    position: relative;
+}
+.updates-container .updates-card .btn{
+    cursor: pointer;
+
+}
+
+.updates-container .updates-card:hover  .btn{
+
+}
+
+.updates-container .updates-card img{
+    width: 100%;
+}
+
+@media(max-width: 767px){
+    .updates-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 
 /* Contact Section  */

@@ -4,82 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rahul T">
+    <meta name="keywords" content="impulse, impulsecet, ieee impulse, ieee cet, ieee sps cet, ieeesbcet, ieee, cet">
+    <meta name="description" content="IMPULSE will be a series of exciting events, each leading to another. The primary goal is to provide upcoming engineers a peek into state-of-the-art research and industry practices, and to direct them towards it">
+    <title>IMPULSE | IEEE SPS CET</title>
+
+
+
+    <!-- stylesheets  -->
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/css/org.css">
-    <title>IEEE IMPULSE | CET</title>
+
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon//site.webmanifest">
+
+
+    <!-- og tags -->
+    <meta property="og:site_name" content="IMPULSE - an sps chapter driven initiative | IEEE SPS CET">
+    <meta property="og:title" content="IMPULSE - an sps chapter driven initiative" />
+    <meta property="og:url" content="https://impulsecet.in" />
+    <meta property="og:image" itemprop="image" content="/static/img/impulse.jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="IMPULSE will be a series of exciting events, each leading to another. The primary goal is to provide upcoming engineers a peek into state-of-the-art research and industry practices, and to direct them towards it" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGCVMFB1G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0KGCVMFB1G');
+    </script>
 </head>
+
+<style>
+    .header .nav ul li a{
+        color: #000000;
+        padding: 15px 0;
+    }
+    .header .brand-name a{
+        color: #000000 !important;
+    }
+    .header .nav-toggle{
+        border-color: #000000 !important;
+    }
+    .header .nav-toggle span,
+    .header .nav-toggle span::before,
+    .header .nav-toggle span::after{
+        background-color: #000000;
+    }
+</style>
 
 <body>
 
-    {% include header.html %}
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="brand-name">
+                    <a href="#home">impulse</a>
+                </div>
+                <div class="nav-toggle">
+                    <span></span>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#organizers">Organizers</a></li>
+                        <li><a href="/#about">Speakers</a></li>
+                        <li><a href="#about">Registration</a></li>
+                        <li><a href="#about">Competitions</a></li>
+                        <li><a href="#about">Blog</a></li>
+                        <li><a href="#about">Contact</a></li>
+                       
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     
     <style>
-        #spinner{
-            position: fixed;
-            top: 0;
-            height: 100vh;
-            width: 100vw;
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-        .loader {
-            border: 10px solid #000000;
-            border-radius: 50%;
-            border-top: 10px solid #3498db;
-            width: 80px;
-            height: 80px;
-            -webkit-animation: spin 2s linear infinite; /* Safari */
-            animation: spin 2s linear infinite;
-        }
-
-        #thankyou{
-            position: fixed;
-            z-index: 1000;
-            background-color: rgb(140, 187, 70);
-            color: rgb(11, 61, 11);
-            padding: 10px 25px;
-            border-radius: 5px;
-            width: 100%;
-
-        }
-        #thankyou h1{
-            font-size: 2em;
-        }
-
-
-
-        #select{
-            padding: 10px 25px;
-            border-radius: 25px;
-            background-color: #ffffff;
-            border: 1px solid #d4d4e3;
-            color: #504e70;
-            font-size: 16px;
-        }
-
-        @-webkit-keyframes spin {
-        0% { -webkit-transform: rotate(0deg); }
-        100% { -webkit-transform: rotate(360deg); }
-        }
-
-        @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-        }
 
         .red{
             color: red;
             font-size: 25px;
         }
+
+        .content-section{
+            width: 80%;
+            margin: auto;
+            margin-top: 100px;
+        }
+
     </style>
 
 
         
+    <section class="content-section">
+        {{content}}
 
-    {{content}}
+    </section>
 
 
     {% include footer.html%}
