@@ -1,6 +1,8 @@
 ---
 layout: main
 permalink: /technical-quiz
+og_title: Impulse Technical Quiz
+og_image: /static/img/impulse-quiz.jpeg
 ---
 
 <style>
