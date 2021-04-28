@@ -14,7 +14,7 @@
 .card {
   grid-column: auto;
   width: 200px;
-  height: 200px;
+  height: 350px;
   border-radius: 15px;
   padding: 1.5rem;
   background: white;

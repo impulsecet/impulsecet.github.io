@@ -1,0 +1,134 @@
+---
+layout: main
+---
+
+
+<style>
+    .section-title{
+        text-align: center;
+    }
+
+    .event-details{
+        width: 90%;
+        margin: auto;
+    }
+
+    .event-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        justify-items: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+    .event-container .image img{
+        width: 70%;
+    }
+    .speaker-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        justify-items: center;
+        align-items: center;
+
+    }
+    .speaker-container .image img{
+        width: 70%;
+    }
+    .speaker-container .image{
+        text-align-last: end;
+    }
+
+    .speaker-container .details{
+        justify-self: left;
+    }
+    .speaker-container .details h1{
+        font-size: 25px;
+    }
+    .details p{
+        margin: 20px 0;
+    }
+
+
+    .social-links a{
+        height: 35px;
+        width: 35px;
+        background-color: #ff8900;
+        display: inline-block;
+        text-align: center;
+        line-height: 35px;
+        color: #ffffff;
+        margin: 0 4px;
+        border-radius: 50%;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      
+      .social-links a:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      
+
+    @media(max-width: 767px){
+        .speaker-container .details{
+            text-align: center;
+        }
+        .event-details{
+            width: 100%;
+        }
+        .event-container, .speaker-container{
+            grid-template-columns: 1fr;
+        }
+        .speaker-container .image{
+            text-align-last: center;
+        }
+    
+        .event-container .image img{
+            width: 100%;
+        }
+    }
+</style>
+
+
+<section class="event-details">
+    
+    <div class="event-container">
+        <div class="image">
+            <img src="{{page.poster_path}}" alt="">
+        </div>
+        <div class="details">
+            <div class="section-title padd-15">
+                <h1>{{page.heading}}</h1>
+                <p><i class="fa fa-calendar"></i> &nbsp; &nbsp; {{page.event_date}}</p>
+                <p><i class="fa fa-history"></i> &nbsp; &nbsp; {{page.time}}</p>
+            </div>
+            <p> {{page.details}} </p>
+            <a href="{{page.register}}"><button class="btn">Register Now</button></a>
+        </div>
+    </div>
+
+    <div style="margin-top: 50px;" class="section-title padd-15">
+        <h1>Speaker</h1>
+    </div>
+
+    <div class="speaker-container">
+        <div class="image">
+            <img src="{{page.speaker_path}}" alt="">
+        </div>
+        <div class="details">
+            <h1>{{page.speaker_name}}</h1>
+            <p> {{page.speaker_info}} </p>
+            <div class="social-links">
+                <a href="tel:{{page.phone}}"><i class="fa fa-phone"></i></a>
+                <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>

@@ -25,7 +25,7 @@ og_image: /static/img/impulse.jpeg
                 </div>
                 </div>
             </div>
-            <div class="card"><img src="/static/img/organizers/anitha.png"/>
+            <div class="card"><img src="/static/img/organizers/Anitha.jpeg"/>
                 <div class="info">
                     <h1>Ms. Anitha Edison </h1>
                     <p>Asst. Professor, CET</p>
@@ -35,7 +35,7 @@ og_image: /static/img/impulse.jpeg
                 </div>
                 </div>
             </div>
-            <div class="card"><img src="" alt="shajahan"/>
+            <div class="card"><img src="/static/img/organizers/shajahan.jpeg" alt="shajahan"/>
                 <div class="info">
                     <h1>Mr. Shajahan</h1>
                     <p>SB Advisor, CET</p>
