@@ -561,7 +561,7 @@ button{
 }
 .contact .contact-info-item .icon .fa{
     font-size: 40px;
-    color: #fa5b0f;
+    color: #ff8900;
 }
 
 .contact .contact-info-item h4{
@@ -613,6 +613,7 @@ button{
 .contact .contact-form .form-item .form-control:focus{
     -webkitbox-shadow: 0 0 20px rgba(48,46,77,0.15);
     box-shadow: 0 0 20px rgba(48,46,77,0.15);
+    outline: none;
 }
 .contact .contact-form .form-item .form-group .select select{
     display: none !important;
@@ -621,9 +622,40 @@ button{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
-    background-color: #fa5b0f;
+    
+}
+.contact .contact-form .form-item textarea.form-control{
+    height: 140px;
+
+}
+.success-msg{
+    position: fixed;
+    top: 0px;
+    left: 40%;
+    min-width: 30%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    background-color: #DFF2BF;
+    border-radius: 5px;
+    color: #270;
+    text-align: center;
+    display: none;
+}
+@media(max-width: 767px){
+    .success-msg{
+        left: 50px;
+    }
 }
 
+@media (max-width: 575px){
+    .contact .contact-info-item{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
 .copyright-text{
     margin-top: 90px;
@@ -715,6 +747,12 @@ button{
         display: none;
     }
     .about-section .about-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contact .contact-form .col-6{
+        -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
     }
