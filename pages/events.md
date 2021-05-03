@@ -50,7 +50,7 @@ og_image: /static/img/impulse.jpeg
                 <div class="box-event">
                     <h1>Hackathon</h1>
                     <p>It is the specific procedures or techniques used to identify, select, process, and analyze information</p>
-                    <i class="fa fa-angle-right"></i><a href="/hackathon">View</a>
+                    <i class="fa fa-angle-right"></i><a href="/coming-soon">View</a>
                     <img src="/static/img/events/hackathon.jpeg" alt="">
                 </div>
             </div>
