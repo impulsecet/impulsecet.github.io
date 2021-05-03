@@ -243,7 +243,7 @@ button{
 .home-section{
     min-height: 100vh;
     background-color: rgb(116, 108, 108);
-    background-image: url('https://image.freepik.com/free-vector/data-visualization-dynamic-wave-pattern-vector_53876-77452.jpg');
+    background-image: url('/static/img/bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
