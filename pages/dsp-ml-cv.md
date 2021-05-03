@@ -15,26 +15,23 @@ og_image: /static/img/impulse.jpeg
                 <div class="box-event">
                     <h1>ML</h1>
                     <div class="speaker">
-                        <img src="/static/img/events/speaker/python2.jpeg" alt="">
+                        <img src="/static/img/events/speaker/sherin-ml.jpeg" alt="">
                     </div>
                     <i class="fa fa-angle-right"></i><a href="/ml">View</a>
-                    <img src="" alt="">
                 </div>
                 <div class="box-event">
                     <h1>CV</h1>
                     <div class="speaker">
-                        <img src="/static/img/events/speaker/cv.jpeg" alt="">
+                        <img src="/static/img/events/speaker/blossom-cv.jpeg" alt="">
                     </div>
                     <i class="fa fa-angle-right"></i><a href="/cv">View</a>
-                    <img src="/static/images/ml.jpg" alt="">
                 </div>
                 <div class="box-event">
                     <h1>DSP</h1>
                     <div class="speaker">
-                        <img src="/static/img/events/speaker/python2.jpeg" alt="">
+                        <img src="/static/img/events/speaker/Sreeni-kg.jpeg" alt="">
                     </div>
                     <i class="fa fa-angle-right"></i><a href="/dsp">View</a>
-                    <img src="/static/images/ml.jpg" alt="">
                 </div>
             </div>
 </section>

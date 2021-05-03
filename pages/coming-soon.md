@@ -124,6 +124,9 @@ og_image: /static/img/impulse.jpeg
         left: 20%;
     }
 
+    .header .nav{
+        z-index: 3000;
+    }
     .header .nav ul li a{
         color: #fff;
         padding: 15px 0;
@@ -172,6 +175,7 @@ og_image: /static/img/impulse.jpeg
             color: #ff0083;
             font-size: 16px;
             padding: 10px 25px;
+            z-index: 1;
 
         }
         .newsletter{
@@ -182,6 +186,13 @@ og_image: /static/img/impulse.jpeg
         .newsletter .inputBox input[type="submit"]{
             margin-top: 10px;
             width: 100%;
+        }
+        .header .nav ul li a{
+            color: #000;
+            padding: 15px 0;
+        }
+        .header{
+            z-index: 10000;
         }
     }
 </style>
