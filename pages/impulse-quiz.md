@@ -49,7 +49,7 @@ og_image: /static/img/impulse-quiz.jpeg
         <p> <b>IEEE SPS SBC CET</b> invites you to a Technical Quiz as a part of <b>IMPULSE</b> ,a chapter driven initiative of SPS. </p>
         <p>This <b>Technical quiz</b> will comprise of general topics which will provide the participants with a broad idea about the current scenario as well as innovations in the technical world. 
         </p>
-        <a href="https://tinyurl.com/IMPULSE-quiz"><button class="btn">Register Now</button></a>
+        <a href="https://tinyurl.com/IMPULSE-quiz"><button disabled class="btn disabled">Registrations closed</button></a>
 
         <p style="font-size: 20px;">Participate Individually or as a team of 2 members</p>
 

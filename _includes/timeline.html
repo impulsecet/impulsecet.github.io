@@ -157,6 +157,38 @@
 	display:block;
 }
 
+.section-content h2{
+	font-family: sans-serif;
+}
+
+.__details{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.__details img{
+	width: auto;
+	height: 300px;
+	margin: auto;
+}
+.__details .day_highlight ul{
+	padding: 0;
+}
+.__details .day_highlight ul li{
+	list-style: none;
+	padding: 0;
+}
+
+@media(max-width: 767px){
+	.__details{
+		grid-template-columns: 1fr;
+	}
+}
+ 
 @keyframes FadeInUp {
 	0% {
 		transform:translateY(15px);
@@ -203,52 +235,290 @@
 
 <div id="progress-content-section">
 	<div class="section-content day1 active">
-		<h2></h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section-content day2">
-		<h2>GALLERY SECTION</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>20th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Arun-python2.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Prof. Arun Varghese </h3>
+				<p>	Associate Professor <br>
+					Department of Electronics & Communication Engineering <br>
+					Rajiv Gandhi Institute of Technology <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Python Packages</h3>
+				<ul>
+					<li>NumPy </li>
+					<li>Matplotlib </li>
+					
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section-content day3">
-		<h2>Creative CREATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>21st May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/sherin-ml.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Sherrin Thomas</h3>
+				<p>	Software Engineer at Grid.ai Bangalore Urban, <br>
+					Karnataka, India <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Machine learning</h3>
+				
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section-content day4">
-		<h2>TESTIMONIALS NOW</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>22nd May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Blossom Treesa </h3>
+				<p>	 Research Engineer, <br>
+					Augsense Lab  <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Computer Vision</h3>
+				<ul>
+					<li>Introduction to computer vision and its applications</li>
+					<li>ntroduction to OpenCV using python,</li>
+					<li>computer vision/image processing using OpenCV</li>
+				
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section-content day5">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>23rd May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Sreeni K G </h3>
+				<p>	Associate Professor <br>
+					Department of ECE, CET <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3> DSP using Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	<div class="section-content day6">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	<div class="section-content day7">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	<div class="section-content day8">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	<div class="section-content day9">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 	<div class="section-content day10">
-		<h2>OUR LOCATIONS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>19th May 2021</h2>
+		
+		<div class="__details">
+			<img src="/static/img/events/speaker/Baburaj-python1.jpeg" alt="">
+			<div class="speaker__detais">
+				<h3>Dr. Baburaj M</h3>
+				<p>	Assistant Professor <br>
+					Dept. of Applied Electronics and Instrumentation Engineering <br>
+					Government Engineering College Kozhikode <br>
+		 		</p>
+			</div>
+			<div class="day_highlight">
+				<h3>Introduction to Python</h3>
+				<ul>
+					<li>variables</li>
+					<li>I/O Statements</li>
+					<li>Operators</li>
+					<li>Decision making</li>
+					<li>Iterative statements</li>
+					<li>Arrays</li>
+					<li>Functions</li>
+
+				</ul>
+
+				<a href=""><button class="btn">Register Now</button></a>
+			</div>
+		</div>
 	</div>
 
 	
 	</div>
+
+	<div style="margin-top: 50px;"></div>
+
+	<center>
+		<a href="/events"><button class="btn">View All Events</button></a>
+	</center>
+	
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
