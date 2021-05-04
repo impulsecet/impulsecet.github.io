@@ -44,6 +44,7 @@ og_image: /static/img/impulse-quiz.jpeg
     <div class="details">
         <div class="section-title padd-15">
             <h1>Technical Quiz</h1>
+            <p><i class="fa fa-calendar"></i> &nbsp; &nbsp; May 3, 2021</p>
         </div>
         
         <p> <b>IEEE SPS SBC CET</b> invites you to a Technical Quiz as a part of <b>IMPULSE</b> ,a chapter driven initiative of SPS. </p>
