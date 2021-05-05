@@ -150,6 +150,9 @@ button{
     letter-spacing: 2px;
     transition: all 0.5s ease;
 }
+.header .brand-name a:hover, .header.fixed .brand-name a:hover{
+    color: #b80505;
+}
 .header.fixed .brand-name a{
     color: #000000;
 }

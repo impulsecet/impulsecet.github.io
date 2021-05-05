@@ -163,7 +163,7 @@
 
 .__details{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 10px;
 	justify-content: center;
 	align-items: center;
@@ -183,6 +183,10 @@
 	text-align: left;
 	list-style: none;
 	padding: 0;
+}
+
+.__details .day_highlight h3{
+	text-align: left;
 }
 
 @media(max-width: 767px){
@@ -241,17 +245,11 @@
 		
 		<div class="__details">
 			<img src="/static/img/poster.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3>Dr. Baburaj M</h3>
-				<p>	Assistant Professor <br>
-					Dept. of Applied Electronics and Instrumentation Engineering <br>
-					Government Engineering College Kozhikode <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Introduction to Python</h3>
 				<ul>
-					<li>variables</li>
+					<li>Variables</li>
 					<li>I/O Statements</li>
 					<li>Operators</li>
 					<li>Decision making</li>
@@ -270,13 +268,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/Arun-python2.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3>Prof. Arun Varghese </h3>
-				<p>	Associate Professor <br>
-					Department of Electronics & Communication Engineering <br>
-					Rajiv Gandhi Institute of Technology <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Python Packages</h3>
 				<ul>
@@ -295,12 +287,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/sherin-ml.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3>Sherrin Thomas</h3>
-				<p>	Software Engineer at Grid.ai Bangalore Urban, <br>
-					Karnataka, India <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Machine learning</h3>
 				
@@ -314,12 +301,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/blossom-cv.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3>Dr. Blossom Treesa </h3>
-				<p>	 Research Engineer, <br>
-					Augsense Lab  <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Computer Vision</h3>
 				<ul>
@@ -339,12 +321,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/Sreeni-kg.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3>Dr. Sreeni K G </h3>
-				<p>	Associate Professor <br>
-					Department of ECE, CET <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3> DSP using Python</h3>
 				
@@ -357,13 +334,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/Jayasree-research.jpg" alt="">
-			<div class="speaker__detais">
-				<h3>Dr. Jayasree P. K</h3>
-				<p>	Professor <br>
-					Department of Civil Engineering, <br>
-					CET <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Session on Research Methodologies</h3>
 				
@@ -376,11 +347,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/" alt="">
-			<div class="speaker__detais">
-				<h3> </h3>
-				<p>	
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>All about ICASSP and ICIP- challenges by IEEE SPS</h3>
 
@@ -395,11 +362,7 @@
 				<img style="height: 150px;" src="/static/img/events/speaker/Densen-cvpr-eccv.jpg" alt=""> <br>
 				<img style="height: 150px;" src="/static/img/events/speaker/hrishikesh.jpeg" alt="">
 			</div>
-			<div class="speaker__detais">
-				<h3>Mr. Densen Puthussery and Mr. Hrishikesh P.S</h3>
-				<p>	Machine Learning Engineers at Founding Minds Inc.
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>All about CVPR and ECCV</h3>
 
@@ -411,13 +374,7 @@
 		
 		<div class="__details">
 			<img src="/static/img/events/speaker/Rajeev-matlab.jpeg" alt="">
-			<div class="speaker__detais">
-				<h3> Dr. Rajeev Rajan</h3>
-				<p>	Associate Professor <br>
-					Department of ECE, <br>
-					CET <br>
-		 		</p>
-			</div>
+
 			<div class="day_highlight">
 				<h3>Basics of MATLAB</h3>
 				
@@ -429,7 +386,7 @@
 	<div class="section-content day10">
 		<h2>28th to 30th May 2021</h2>
 		<h3 style="font-size: 25px;">Hackathon Judges</h3>
-		<div class="__details">
+		<div style="grid-template-columns: 1fr 1fr 1fr;"  class="__details">
 			
 			<div class="image">
 				<img src="/static/img/events/hackathon/adarsh.jpg" alt="">
