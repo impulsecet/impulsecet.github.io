@@ -52,7 +52,7 @@ og_image: /static/img/impulse-quiz.jpeg
             <b>"Undergraduate Research in Engineering Institutions"</b> by <b>Dr. Jiji C V</b> 
         </p>
         
-        <a href="https://tinyurl.com/IMPULSE-Gform"><button class="btn">Registration Now</button></a>
+        <a href="https://tinyurl.com/IMPULSE-Gform"><button class="btn">Register Now</button></a>
 
     </div>
 </div>

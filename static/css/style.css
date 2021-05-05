@@ -98,11 +98,11 @@ button{
     bottom: -5px;
     width: 80px;
     height: 3px;
-    background-color: #ff9800;
+    background-color: #b80505;
 }
 
 .btn-01{
-    background-color: #ff9800;
+    background-color: #b80505;
     color: #ffffff;
     border: 2px solid transparent;
     padding: 10px 35px;
@@ -117,8 +117,8 @@ button{
 }
 .btn-01:hover{
     background-color: transparent;
-    border-color: #ff8900;
-    color: #ff9800;
+    border-color: #b80505;
+    color: #b80505;
 }
 
 .btn-01:focus{
@@ -230,7 +230,7 @@ button{
 
 .header.fixed .nav ul li a:hover,
 .header .nav ul li a:hover{
-    color: #ff8900;
+    color: #b80505;
 }
 
 
@@ -416,7 +416,7 @@ button{
 }
 
 .btn{
-    background-color: #ff8900;
+    background-color: #b80505;
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -634,7 +634,7 @@ button{
 }
 .contact .contact-info-item .icon .fa{
     font-size: 40px;
-    color: #ff8900;
+    color: #b80505;
 }
 
 .contact .contact-info-item h4{
@@ -739,7 +739,7 @@ button{
 }
 .copyright-text .fa{
     font-size: 24px;
-    color: #ff8900;
+    color: #b80505;
 }
 
 .copyright-text p{
