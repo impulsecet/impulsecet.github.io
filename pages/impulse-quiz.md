@@ -60,5 +60,10 @@ og_image: /static/img/impulse-quiz.jpeg
         <p>Jacob : <a href="https://wa.me/919495119436">9495119436</a> </p>
         <p>Mithun : <a href="https://wa.me/918547045588">8547045588</a> </p>
 
+        <h1> winners </h1>
+        <div class="image">
+            <img src="/static/img/quiz-winners.jpeg" alt="winners">
+        </div>
+
     </div>
 </div>
