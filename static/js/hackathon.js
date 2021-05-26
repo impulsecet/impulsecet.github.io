@@ -1,17 +1,4 @@
-const faqs = [
-    {
-        q: "what is impulse?",
-        a: "this is an event"
-    },
-    {
-        q: "when is impulse?",
-        a: "next week"
-    },
-    {
-        q: "what is hackathon?",
-        a: "You have to solve a problem statement"
-    }
-]
+
 
 const accordion = document.querySelector(".accordion")
 faqs.forEach(faq => {
