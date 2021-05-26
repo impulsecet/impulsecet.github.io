@@ -1,0 +1,159 @@
+
+.hackathon-registration-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    @media(max-width: 767px){
+        grid-template-columns: 1fr;
+    }
+
+    .register{
+        padding: 20px;
+        border-radius: 20px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(247, 226, 226);
+        text-align: center;
+        margin-bottom: 30px;
+        @media(max-width: 767px){
+            width: 80%;
+        }
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            @media(max-width: 767px){
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.faq-section{
+    .search-bar{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+        justify-self: center;
+        @media(max-width: 767px){
+            width: 90%;
+        }
+        form{
+            position: relative;
+            .search-icon{
+                position: absolute;
+                top: 50%;
+                left: 5px;
+                transform: translateY(-50%);
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+    
+            }
+            width: 100%;
+            input{
+                padding: 10px 20px 10px 35px;
+                border-radius: 10px;
+                width: 100%;
+                margin: auto;
+                border: 1px solid #00000030;
+                outline: none;
+                font-size: 1rem;
+            }
+        }
+        
+    }
+    .container{
+        margin-top: 50px;
+        width: 80%;
+        @media(max-width: 767px){
+            width: 100%;
+        }
+    }
+}
+
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #000000;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+    cursor: pointer;
+    color: #ff5353;
+}
+.accordion a:hover::after {
+    border: 1px solid #ff5353;
+}
+.accordion a.active {
+    color: #ff5353;
+    border-bottom: 1px solid #ff5353;
+}
+.accordion a::after {
+    font-family: 'Ionicons';
+    content: '\f218';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #000;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+    @media(max-width: 767px){
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+}
+.accordion a.active::after {
+    font-family: 'Ionicons';
+    content: '\f209';
+    color: #ff5353;
+    border: 1px solid #ff5353;
+}
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+}
