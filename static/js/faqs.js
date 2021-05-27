@@ -43,12 +43,6 @@ const faqs = [
             IMPULSE hackathon is a 3-day long hackathon, which spans from 28th May 12 AM to 30th May 11.59 PM. <br>
             Your team will be given a problem statement, for which you'll get these three days to solve. <br>
             Solutions can be in any one of these concepts (only). <br>
-            <ul> 
-                <li>Machine Learning</li>
-                <li> CV </li>
-                <li> DSP </li>
-            </ul>
-
         `
     },
     {
