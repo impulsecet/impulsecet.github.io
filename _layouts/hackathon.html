@@ -49,15 +49,7 @@
     {% include hackathonheader.html %}
     
     <style>
-        .home-section{
-            min-height: 100vh;
-            background-color: rgb(116, 108, 108);
-            background-image: url('/static/img/hackathon-bg.jpeg');
-            background-size: cover;
-            background-position: center;
-            position: relative;
-            z-index: 1;
-        }
+       
         #spinner{
             position: fixed;
             top: 0;
@@ -124,6 +116,21 @@
                 margin: auto;
             }
         }
+        .home-section{
+            min-height: 100vh;
+            background-color: rgb(116, 108, 108);
+            background-image: url('/static/img/hackathon-bg.jpeg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+        @media(max-width: 767px){
+            .home-section{
+                background-image: url('/static/img/hackathon-bg-phone.jpeg');
+                background-size: cover;
+            }
+        }
         .home-section:before{
             content: '';
             position: absolute;
@@ -146,12 +153,22 @@
             width: 50%;
             align-items: flex-start;
         }
+        
         .hackathon-heading{
             font-size: 4rem !important;
         }
         .hackathon-para{
             font-size: 1.5rem;
             color: #ffffff;
+        }
+        @media(max-width: 767px){
+            .home-content{
+                width: 70% !important;
+                align-items: center;
+            }
+            .hackathon-heading{
+                font-size: 3.2rem !important;
+            }
         }
     </style>
 
