@@ -40,7 +40,7 @@ const faqs = [
     {
         q: "How to approach the IMPULSE hackathon?",
         a: `
-            IPULSE hackathon is a 3-day long hackathon, which spans from 28th May 12 AM to 30th May 11.59 PM. <br>
+            IMPULSE hackathon is a 3-day long hackathon, which spans from 28th May 12 AM to 30th May 11.59 PM. <br>
             Your team will be given a problem statement, for which you'll get these three days to solve. <br>
             Solutions can be in any one of these concepts (only). <br>
             <ul> 
@@ -79,6 +79,10 @@ const faqs = [
     {
         q: "How will I join the google classroom?",
         a: "Only your team leader is to join the google classroom. The link will be sent to the respective person through an email and will also be shared with their WhatsApp group"
+    },
+    {
+        q: "What programming languages can I use?",
+        a: "Python, Matlab if needed."
     }
         
 ]
