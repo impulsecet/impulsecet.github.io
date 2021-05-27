@@ -42,7 +42,8 @@ const faqs = [
         a: `
             IMPULSE hackathon is a 3-day long hackathon, which spans from 28th May 12 AM to 30th May 11.59 PM. <br>
             Your team will be given a problem statement, for which you'll get these three days to solve. <br>
-            Solutions can be in any one of these concepts (only). <br>
+            The code submission is to be done by 6 AM on 30th May. The judges will take a look at your solutions and come up with a shortlisted set of participants who would have to present their solution before the judges on the evening of 30th itself. The presentation would have to consist of a set of slides and you would have to do it orally.<br>
+            
         `
     },
     {
