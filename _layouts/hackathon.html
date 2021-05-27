@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rahul T">
+    <meta name="keywords" content="impulse, impulsecet, ieee impulse, ieee cet, ieee sps cet, ieeesbcet, ieee, cet">
+    <meta name="description" content="IMPULSE will be a series of exciting events, each leading to another. The primary goal is to provide upcoming engineers a peek into state-of-the-art research and industry practices, and to direct them towards it">
+    <title>IMPULSE | IEEE SPS CET</title>
+
+
+
+    <!-- stylesheets  -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/org.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon//site.webmanifest">
+
+
+    <!-- og tags -->
+    <meta property="og:site_name" content="IMPULSE - an sps chapter driven initiative | IEEE SPS CET">
+    <meta property="og:title" content="IMPULSE - an sps chapter driven initiative" />
+    <meta property="og:url" content="https://impulsecet.in" />
+    <meta property="og:image" itemprop="image" content="/static/img/impulse.jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="IMPULSE will be a series of exciting events, each leading to another. The primary goal is to provide upcoming engineers a peek into state-of-the-art research and industry practices, and to direct them towards it" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGCVMFB1G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0KGCVMFB1G');
+    </script>
+</head>
+
+<body>
+
+    {% include hackathonheader.html %}
+    
+    <style>
+        .home-section{
+            min-height: 100vh;
+            background-color: rgb(116, 108, 108);
+            background-image: url('/static/img/hackathon-bg.jpeg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+        #spinner{
+            position: fixed;
+            top: 0;
+            height: 100vh;
+            width: 100vw;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .loader {
+            border: 10px solid #000000;
+            border-radius: 50%;
+            border-top: 10px solid #3498db;
+            width: 80px;
+            height: 80px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        #thankyou{
+            position: fixed;
+            z-index: 1000;
+            background-color: rgb(140, 187, 70);
+            color: rgb(11, 61, 11);
+            padding: 10px 25px;
+            border-radius: 5px;
+            width: 100%;
+
+        }
+        #thankyou h1{
+            font-size: 2em;
+        }
+
+
+
+        #select{
+            padding: 10px 25px;
+            border-radius: 25px;
+            background-color: #ffffff;
+            border: 1px solid #d4d4e3;
+            color: #504e70;
+            font-size: 16px;
+        }
+
+        @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
+
+        .red{
+            color: #b80505;
+            font-size: 25px;
+        }
+
+        @media(max-width: 767px){
+            .impulse{
+                width: 90%;
+                margin: auto;
+            }
+        }
+        .home-section:before{
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000000;
+            opacity: 0;
+        }
+        @media(max-width: 767px){
+            .home-section:before{
+                opacity: 0.6;
+            }
+        }
+        .home-content{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            align-items: flex-start;
+        }
+        .hackathon-heading{
+            font-size: 4rem !important;
+        }
+        .hackathon-para{
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+    </style>
+
+
+        <!-- Home Section Start  -->
+        <section class="home-section" id="home">
+            <!-- Shape -->
+            <!-- <div class="shape-01">
+    
+            </div> -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-content">
+                        <h1 class="hackathon-heading" style="letter-spacing: .1rem;">Hackathon</h1>
+                        <p class="hackathon-para">Test your skills in ML, CV and DSP</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Scroll down -->
+            <a href="#faqs" class="scroll-down">
+                <img src="/static/img/icons/arrow-down.svg" alt="Scroll Down">
+            </a>
+        </section>
+        <!-- Home Section End  -->
+
+    {% include hackathon.html %}
+
+    {{content}}
+
+    <div id="spinner">
+       <div class="loader"></div>
+    </div>
+   
+
+    {% include footer.html%}
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="/static/js/jQuery.min.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>
+    
