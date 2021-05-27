@@ -13,9 +13,15 @@ const faqs = [
         a: "that is a big thing <br> This is going to be in the next line"
     },
     {
-        q: "when is hackathon?",
+        q: "what is hackathon?",
         a: "that is a big thing <br> This is going to be in the next line"
     },
+    {
+        q: "what is hackathon?",
+        a: "that is a big thing <br> This is going to be in the next line"
+    },
+    
+    
 ]
 
 ============ POINTS TO REMEMBER ===========
