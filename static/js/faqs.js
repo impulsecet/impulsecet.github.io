@@ -68,4 +68,17 @@ const faqs = [
         q: "What are the criteria to get the certificate of participation in the hackathon?",
         a: `For you to earn a certificate, it is a must for your team to submit a solution to the problem statement.`
     },
+    {
+        q: "When and where will we get the problem statement?",
+        a: `The problem statement will be released on 28th May, at 12 AM (midnight), and your team leader will receive an email that encloses the problem statement at the same time. It will also be published in the Google classroom to which your team lead is allotted.`
+    },
+    {
+        q: "Where to submit the solutions to the problem statement?",
+        a: "Solutions are to be submitted through the google classroom you are allotted to."
+    },
+    {
+        q: "How will I join the google classroom?",
+        a: "Only your team leader is to join the google classroom. The link will be sent to the respective person through an email and will also be shared with their WhatsApp group"
+    }
+        
 ]
