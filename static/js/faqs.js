@@ -74,7 +74,7 @@ const faqs = [
     },
     {
         q: "Where to submit the solutions to the problem statement?",
-        a: "Solutions are to be submitted through the google classroom you are allotted to."
+        a: "Solutions are to be submitted through a Google form uploaded in the google classroom you are allotted to.The answer form will contain a field to enter the link to your Github repo or Google Colab where you have collaborated on the code."
     },
     {
         q: "How will I join the google classroom?",
