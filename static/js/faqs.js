@@ -114,6 +114,10 @@ const faqs = [
      {
         q: "What are the points to keep in mind while submission?",
         a: "️You must explain what your solution does and how it can be run or operated, in a README file [ i.e., the instructions to follow while working with your solution]. Try to make your code understandable. But in the end, the practicality and efficiency of your code will be the main parameters taken into consideration.Upload all your files in GitHub and it is enough to share the link to the repo"
+    },
+    {
+        q: "How’s the final round conducted?",
+        a: "️Those teams which get selected will have to present their solutions in front of the judges. Explaining the code won't be needed then. Just a ppt with all the necessary details of the project and a knowledgeable presentation will do."
     }
         
 ]
