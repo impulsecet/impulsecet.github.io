@@ -118,6 +118,10 @@ const faqs = [
     {
         q: "How’s the final round conducted?",
         a: "️Those teams which get selected will have to present their solutions in front of the judges. Explaining the code won't be needed then. Just a ppt with all the necessary details of the project and a knowledgeable presentation will do."
-    }
+    },
+        {
+        q: "Is it allowed to take resources from the internet?",
+        a: "️To get the statistics or reports of the real-life scenarios happening in different places, browse the internet, and be well informed. There might be multiple projects addressing various problems on the internet. Though you are not allowed to copy those projects as such, you are allowed to use extracts of code from various sources.Most importantly the solution should be something that came up in your head."
+    },
         
 ]
