@@ -110,6 +110,10 @@ const faqs = [
     {
         q: "Can we use Tensorflow as ML library rather than ScikitLearn?",
         a: "️ YES! You can use any libraries as per your convinience."
+    },
+     {
+        q: "What are the points to keep in mind while submission?",
+        a: "️You must explain what your solution does and how it can be run or operated, in a README file [ i.e., the instructions to follow while working with your solution]. Try to make your code understandable. But in the end, the practicality and efficiency of your code will be the main parameters taken into consideration.Upload all your files in GitHub and it is enough to share the link to the repo"
     }
         
 ]
