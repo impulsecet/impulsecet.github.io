@@ -102,6 +102,14 @@ const faqs = [
     {
         q: "In what format should the solution be submitted?",
         a: "️The solution is to be submitted as program codes."
+    },
+    {
+        q: "Can we use predefined models in our object?",
+        a: "️ YES! You may use predefined models."
+    },
+    {
+        q: "Can we use Tensorflow as ML library rather than ScikitLearn?",
+        a: "️ YES! You can use any libraries as per your convinience."
     }
         
 ]
