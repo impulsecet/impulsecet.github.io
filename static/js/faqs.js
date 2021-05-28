@@ -101,7 +101,7 @@ const faqs = [
     },
     {
         q: "In what format should the solution be submitted?",
-        a: "️The solution is to be submitted as programme codes."
+        a: "️The solution is to be submitted as program codes."
     }
         
 ]
