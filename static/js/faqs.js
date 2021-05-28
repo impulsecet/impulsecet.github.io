@@ -86,6 +86,22 @@ const faqs = [
     {
         q: "Can we solve ML,CV and DSP together?",
         a: "Yes you may use a mix of ML, CV or/and DSP in solving the problem."
-    }
+    },
+    {
+        q: "What is the deadline for submissions?",
+        a: "️The solution to the problem statement is to be submitted on 30th May, before 6 AM in the morning."
+    },
+    {
+        q: "Is there another round after submitting the solution?",
+        a: "Y️ES!There is one final round left that will be conducted on the same day itself i.e., 30th May [only for the shortlisted teams]. The submissions will be reviewed and a list of selected teams will be published and those teams will have to present their solutions in front of the judging panel (with the help of a ppt)."
+    },
+    {
+        q: "Can we use image processing softwares to solve the task chosen?",
+        a: "️YES! You are free to use any softwares, but make sure to keep your solution practical"
+    },
+    {
+        q: "In what format should the solution be submitted?",
+        a: "️The solution is to be submitted as programme codes."
+    }]
         
 ]
