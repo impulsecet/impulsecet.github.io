@@ -78,6 +78,14 @@ const faqs = [
     {
         q: "What programming languages can I use?",
         a: "Python, Matlab if needed."
+    },
+    {
+        q: "Should we solve both the scenarios listed in the problem statement?",
+        a: "You do not have to solve both the scenarios listed. Choose any one and find a solution for that. You also have the option of choosing a scenario which is not listed and that which pertains to the problem statement and solving that."
+    },
+    {
+        q: "Can we solve ML,CV and DSP together?",
+        a: "Yes you may use a mix of ML, CV or/and DSP in solving the problem."
     }
         
 ]
